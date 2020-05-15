@@ -1,0 +1,31 @@
+.wrap {
+  margin: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  background: cadetblue;
+}
+.container {
+  display: inline-block;
+  width: 30%;
+}
+.box {
+  border-radius: 50%;
+  height: 50px;
+  margin: 40px auto;
+  width: 50px;
+}
+.box1 {
+  background: rgb(96, 98, 212);
+  transition: all 300ms;
+}
+.box2 {
+  background: rgb(51, 53, 156);
+  transition: all 1s;
+}
+.box3 {
+  background: rgb(37, 23, 87);
+  transition: all 2s;
+}
+.wrap:hover .box {
+  transform: scale(2);
+}
